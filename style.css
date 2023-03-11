@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.container{
+    width: 90%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.back_color{
+    background-color: #F3EED9;
+}
+.height{
+    min-height: 660px;
+}
+
+.heading{
+    width: 70%;
+    text-align: center;
+    padding: 2em;
+}
+
+#small__head{
+    font-size: 1.12rem;
+    letter-spacing: .5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#main__head{
+    font-size: 3.75rem;
+    color: #824936;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.text{ 
+    margin: 4em 1em;
+}
+.title{
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #824936;
+}
+.para{
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    font-weight:500;
+    line-height: 1.4em;
+}
+
+#para_1{
+    width: 46%;
+}
+#para_2{
+    width:47%;
+}
+
+.display__1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back_dark{
+    background-color: #222C2A;
+}
+
+.text__image{
+    padding: 5em 0;
+}
+
+.left__text{
+    width: 46%;
+    color: white;
+}
+.left__text h2{
+    color: #F3EED9;
+    font-size: 2.3rem;
+    font-family: 'Playfair Display', serif;
+}
+.left__text p{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-family:  sans-serif;
+}
+
+.right__image{
+    width: 47%;
+}
+
+.back_light{
+    background-color:#824936;
+}
